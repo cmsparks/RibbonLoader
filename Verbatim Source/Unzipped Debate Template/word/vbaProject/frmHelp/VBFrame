@@ -1,0 +1,10 @@
+VERSION 5.00
+Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} frmHelp 
+   Caption         =   "Verbatim Help"
+   ClientHeight    =   2400
+   ClientLeft      =   120
+   ClientTop       =   -1320
+   ClientWidth     =   4780
+   StartUpPosition =   1  'CenterOwner
+   TypeInfoVer     =   20
+End

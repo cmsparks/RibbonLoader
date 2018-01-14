@@ -1,0 +1,10 @@
+VERSION 5.00
+Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} frm2016Format 
+   Caption         =   "Formatting Functions"
+   ClientHeight    =   6600
+   ClientLeft      =   0
+   ClientTop       =   -2300
+   ClientWidth     =   4300
+   StartUpPosition =   1  'CenterOwner
+   TypeInfoVer     =   8
+End

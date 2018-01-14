@@ -1,0 +1,10 @@
+VERSION 5.00
+Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} frmChooseSpeechDoc 
+   Caption         =   "Choose Speech Doc"
+   ClientHeight    =   3280
+   ClientLeft      =   120
+   ClientTop       =   -860
+   ClientWidth     =   5260
+   StartUpPosition =   1  'CenterOwner
+   TypeInfoVer     =   10
+End

@@ -1,0 +1,10 @@
+VERSION 5.00
+Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} frmCombineDocs 
+   Caption         =   "Combine Docs"
+   ClientHeight    =   6400
+   ClientLeft      =   0
+   ClientTop       =   -1760
+   ClientWidth     =   8480.001
+   StartUpPosition =   1  'CenterOwner
+   TypeInfoVer     =   22
+End

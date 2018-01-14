@@ -1,0 +1,10 @@
+VERSION 5.00
+Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} frmCheatSheet 
+   Caption         =   "Cheat Sheet"
+   ClientHeight    =   8980.001
+   ClientLeft      =   120
+   ClientTop       =   -1300
+   ClientWidth     =   4020
+   StartUpPosition =   1  'CenterOwner
+   TypeInfoVer     =   6
+End

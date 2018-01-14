@@ -1,0 +1,10 @@
+VERSION 5.00
+Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} frmConvert 
+   Caption         =   "Convert/Batch Convert Files"
+   ClientHeight    =   4040
+   ClientLeft      =   40
+   ClientTop       =   -4460
+   ClientWidth     =   6400
+   StartUpPosition =   1  'CenterOwner
+   TypeInfoVer     =   40
+End
