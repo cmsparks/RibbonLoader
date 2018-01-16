@@ -10,34 +10,34 @@
                 </mso:group>
                 <mso:group id="mso_c1.211D81C" label="Formatting" autoScale="true">
                     <mso:control idQ="mso:PasteTextOnly" label="Paste Text Only" visible="true" />
-                    <mso:control idQ="mso:ParagraphSpacingDecrease" label="Condense" visible="true" />
+                    <mso:button id="Condense" label="Condense" imageMso="ParagraphSpacingDecrease" visible="true" onAction="Condense"/>
                 </mso:group>
-                <mso:group id="mso_c2.213D2EF" label="Text Style">
-                    <mso:box id="asdfasdfasdf" boxStyle="vertical">
-                    	<mso:button id="pocket" label="Pocket " visible="true" size="normal"/>
-                    	<mso:button id="hat" label="Hat     " visible="true" size="normal"/>
+                <mso:group id="TextStyle" label="Text Style">
+                    <mso:box id="formatLeft" boxStyle="vertical">
+                    	<mso:button id="pocket" label="Pocket " visible="true" size="normal" onAction="Pocket"/>
+                    	<mso:button id="hat" label="Hat     " visible="true" size="normal" onAction="Hat"/>
                 	</mso:box>
-                    <mso:box id="asdfasdklllkfasdf" boxStyle="vertical">
-                    	<mso:button id="block" label="Block   " visible="true" size="normal"/>
+                    <mso:box id="Format Mid" boxStyle="vertical">
+                    	<mso:button id="block" label="Block   " visible="true" size="normal" onAction="Block"/>
                     	<mso:button id="x1:Cite_1_22FF88A" label="Cite    " onAction="Cite" visible="true" size="normal"/>
                 	</mso:box>
                 	<mso:button id="x1:Tag_0_22FF88A" label="Tag" imageMso="ReviewCombineRevisions" onAction="Tag" visible="true" size="large"/>
                 </mso:group>
-                <mso:group id="mso_c3.2175C5B" label="Card Formatting" autoScale="true">
+                <mso:group id="CardForm" label="Card Formatting" autoScale="true">
                     <mso:menu id="UnderlineTools" label="Underline Tools" imageMso="UnderlineWords" visible="true">
                     	<mso:gallery idQ="mso:UnderlineGallery" showInRibbon="false" visible="true" />
                     	<mso:toggleButton id="UnderlineMode" label="Underline Mode" visible="True" imageMso="UnderlineDouble"/>
                     </mso:menu>
-                    <mso:control idQ="mso:Bold" label="Emphasis" visible="true" />
+                    <mso:button id="Emphasis" label="Emphasis" imageMso="Bold" visible="true" onAction="Emphasis"/>
                     <mso:menu id="Highlight Tools" label="Highlight Tools" imageMso="InkFeltTipPen" visible="true">
                     	<mso:gallery idQ="mso:TextHighlightColorPicker" label="Highlight" showInRibbon="false" visible="true" />
-                    	<mso:button id="HighlightStandardization" label="Unihighlight" visible="true" imageMso="ReviewHighlightChanges"/>
-                    	<mso:button id="HighlightStasdfasdfandardization" label="Unihighlight" visible="true" imageMso="MailMergeHighlightMergeFields"/>
+                    	<mso:button id="HighlightStandardization" label="Unihighlight" visible="true" imageMso="ReviewHighlightChanges" onAction="UniHighlight"/>
                     </mso:menu>
                     <mso:menu id="Clear" label="Clear" visible="true" imageMso="ClearFormatting">
-                    	<mso:button id="Clearall" label="Clear All Formatting" visible="true"/>
-                    	<mso:button id="ClearEmphasis" label="Clear Emphasis" visible="true"/>
-                    	<mso:button id="ClearHighlighting" label="Clear Highlighting" visible="true"/>
+                    	<mso:control idQ="mso:ClearFormatting" visible="true"/>
+                    	<mso:button id="ClearEmphasis" label="Clear Emphasis" visible="true" onAction="RemoveAllEmphasis"/>
+                    	<mso:button id="ClearHighlighting" label="Clear Highlighting" visible="true" onAction="RemoveAllHighlighting"/>
+                    	<mso:button id="ClearUnderline" label="Clear Underline" visible="true" onAction="RemoveAllUnderline"/>
                     </mso:menu>
                 </mso:group>
                 <!--<mso:group id="mso_c1.21F8460" label="Miscellaneous" autoScale="true">
