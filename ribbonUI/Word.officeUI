@@ -4,7 +4,7 @@
         <mso:tabs>
             <mso:tab id="mso_c5.1771CF0" label="Verbatim2">
                 <mso:group id="mso_c6.1771CF5" label="Documents" autoScale="true">
-                    <mso:control idQ="mso:LegalBlackline" label="Set Speech Doc" visible="true" />
+                    <mso:dynamicMenu id="SetSpeech" label="Set Speech Doc" visible="true" imageMso="LegalBlackline" getContent="DropDownUI"/>
                     <mso:control idQ="mso:ReviewCombineRevisions" label="Send to Speech" visible="true" />
                     <mso:control idQ="mso:PictureBackgroundRemovalMarkForeground" label="New Speech Doc" visible="true" />
                 </mso:group>
